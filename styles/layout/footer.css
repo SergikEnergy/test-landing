@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  background-color: #3d4050;
+}
+
+.footer .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__pay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+}

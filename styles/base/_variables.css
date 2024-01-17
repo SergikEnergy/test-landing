@@ -6,4 +6,10 @@
   --text-colored: #42a9ed;
   --text-content: #000;
   --bg-buttons: #3e9cdc;
+
+  --extra-sm-breakpoint: 320px;
+  --sm-breakpoint: 640px;
+  --lg-breakpoint: 768px;
+  --xl-breakpoint: 1024px;
+  --xxl-breakpoint: 1280px;
 }

@@ -20,3 +20,13 @@
 .form__content_item2 {
   width: calc(66% - 3rem);
 }
+
+.button_submit {
+  margin-top: 5rem;
+  width: 37rem;
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  margin-bottom: 15rem;
+}

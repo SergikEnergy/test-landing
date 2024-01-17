@@ -4,9 +4,6 @@
   justify-content: space-between;
   margin-bottom: 10px;
 }
-.form__range {
-  margin-bottom: 5rem;
-}
 
 .range_container label,
 .form__range_percentage {

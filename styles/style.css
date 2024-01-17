@@ -5,6 +5,7 @@
 @import './layout/header.css';
 @import './layout/article.css';
 @import './layout/order.css';
+@import './layout/footer.css';
 
 @import './components/wrapper.css';
 @import './components/article-content.css';
@@ -16,3 +17,4 @@
 @import './components/form-text-input.css';
 @import './components/custom-range.css';
 @import './components/custom-data-picker.css';
+@import './components/footer.css';

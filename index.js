@@ -8,7 +8,7 @@ function mainFunction() {
     headerLinks.forEach((link) => {
       link.classList.remove('text_emphasized');
       if (event.target === link) {
-        console.log(link.classList.add('text_emphasized'));
+        link.classList.add('text_emphasized');
       }
     });
   });
@@ -37,6 +37,23 @@ function mainFunction() {
   const rangeValueOutput = document.querySelector('.form__range_percentage');
   rangeInput.addEventListener('change', (event) => {
     rangeValueOutput.innerText = `${event.target.value} %`;
+  });
+
+  //custom data picker
+  const fakeDataInput = document.querySelector('.data__content');
+  const formData = document.querySelector('.form__data');
+  const trueDataPicker = formData.querySelector('[type=file]');
+
+  fakeDataInput.addEventListener('click', () => {
+    trueDataPicker.click();
+  });
+
+  trueDataPicker.addEventListener('change', (event) => {
+    if (event.target.value) {
+      fakeDataInput.style.color = 'green';
+    } else {
+      fakeDataInput.style.color = '';
+    }
   });
 }
 
