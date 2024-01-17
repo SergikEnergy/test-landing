@@ -3,7 +3,7 @@ body {
   margin: auto;
   width: 100%;
   color: var(--text-main);
-  background-color: var(--main-bg-color);
+  scroll-behavior: smooth;
 }
 
 .text_emphasized {

@@ -1,0 +1,45 @@
+.page {
+  background: no-repeat url('../../sources/images/BG-main.jpg');
+  background-size: cover;
+}
+.page__title {
+  margin-top: 20rem;
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.8rem;
+  text-transform: uppercase;
+  color: var(--text-content);
+  width: 780px;
+}
+
+.page__title span {
+  color: var(--text-colored);
+}
+
+.page__content {
+  color: var(--text-content);
+}
+
+.content__header {
+  margin-top: 8rem;
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+.content__list {
+  margin-top: 1rem;
+  padding-left: 5px;
+  list-style-type: none;
+}
+.content__list_item {
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+.page__buttons {
+  margin-top: 8rem;
+  margin-bottom: 20rem;
+}
