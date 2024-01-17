@@ -13,3 +13,6 @@
 @import './components/icons-order.css';
 @import './components/form-order.css';
 @import './components/custom-select.css';
+@import './components/form-text-input.css';
+@import './components/custom-range.css';
+@import './components/custom-data-picker.css';
