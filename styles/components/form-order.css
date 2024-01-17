@@ -1,0 +1,22 @@
+.order__form {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.form__content_item {
+  width: calc(33% - 3rem * 2);
+}
+.form__content_item2 {
+  width: calc(66% - 3rem);
+}

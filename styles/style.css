@@ -4,8 +4,12 @@
 @import './layout/base-styles.css';
 @import './layout/header.css';
 @import './layout/article.css';
+@import './layout/order.css';
 
 @import './components/wrapper.css';
 @import './components/article-content.css';
 @import './components/button.css';
 @import './components/order.css';
+@import './components/icons-order.css';
+@import './components/form-order.css';
+@import './components/custom-select.css';

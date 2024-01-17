@@ -1,5 +1,6 @@
 window.addEventListener('load', mainFunction);
 function mainFunction() {
+  //crate active header links
   const headerLinkList = document.querySelector('.navigation');
 
   headerLinkList.addEventListener('click', (event) => {
@@ -12,9 +13,25 @@ function mainFunction() {
     });
   });
 
-  console.log(headerLinks);
-}
+  //dropdown select styles
+  const selectedBlock = document.querySelector('.selected');
+  const optionsContainer = document.querySelector('.options-container');
 
+  const optionsList = document.querySelectorAll('.option');
+
+  selectedBlock.addEventListener('click', () => {
+    optionsContainer.classList.toggle('active');
+  });
+
+  optionsContainer.addEventListener('click', (event) => {
+    optionsList.forEach((option) => {
+      if (event.target === option) {
+        selectedBlock.innerHTML = option.querySelector('label').innerHTML;
+        optionsContainer.classList.remove('active');
+      }
+    });
+  });
+}
 //sticky header
 window.addEventListener('scroll', getStickyStyles);
 

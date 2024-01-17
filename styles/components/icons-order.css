@@ -1,0 +1,49 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ico__img {
+  width: 100px;
+  height: 100px;
+  background-color: var(--bg-buttons);
+  border-radius: 50%;
+  border: 5px solid #286690;
+}
+.ico {
+  margin-right: 14rem;
+  position: relative;
+}
+
+.ico_last {
+  margin-right: 0;
+}
+
+.ico__img {
+  margin-bottom: 2rem;
+}
+
+.ico__img img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -37px 0 0 -20px;
+}
+.ico__detail {
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  width: 20rem;
+}
