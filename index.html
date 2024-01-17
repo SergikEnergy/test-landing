@@ -3,7 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/utils/_normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Test task layout</title>
   </head>
-  <body></body>
+  <body>
+    <header class="'header">
+      <div class="wrapper">
+        <div class="header__logo">
+          <a href="#" class="heder__logo_link">LOREMIPSUM.<span class="text_emphasized">NET</span></a>
+        </div>
+        <nav class="header__navigation">
+          <ul class="navigation">
+            <li class="navigation__link text_emphasized">БИЗНЕС</li>
+            <li class="navigation__link">О НАС</li>
+            <li class="navigation__link">ЦЕНЫ</li>
+            <li class="navigation__link">ОФОРМИТЬ ЗАКАЗ</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <article class="page">
+      <h1 class="page__title">Lorem ipsum dolor sit amet consectetur adipiscing</h1>
+      <h3 class="page__content content__header">At vero eos et accusamus et iusto odio dignissimos ducimus!</h3>
+      <ul class="page__content content__list">
+        <li class="content__list_item">Totam rem aperiam eaque ipsa</li>
+        <li class="content__list_item">Sit voluptatem accusantium doloremque laudantium</li>
+        <li class="content__list_item">Sed ut perspiciatis, unde omnis iste natus error</li>
+      </ul>
+      <div class="page__buttons">
+        <button class="button button_colored">заказать</button>
+        <button class="button">подробнее</button>
+      </div>
+    </article>
+    <main class="order">
+      <div class="wrapper">
+        <h2 class="order__title">Оформление <span class="text_emphasized">Заказа</span></h2>
+        <p class="order__comment">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+        <div class="icons">
+          <div class="icons__item ico">
+            <div class="ico__img"><img src="./sources/images/loopIco.png" alt="ico loop" /></div>
+            <div class="ico__detail">Lorem ipsum dolor sit amet</div>
+          </div>
+          <div class="icons__item ico">
+            <div class="ico__img"><img src="./sources/images/percentIco.png" alt="ico percent" /></div>
+            <div class="ico__detail">Сonsecteturadipiscing elit</div>
+          </div>
+          <div class="icons__item ico">
+            <div class="ico__img"><img src="./sources/images/addIco.png" alt="ico add file" /></div>
+            <div class="ico__detail">Sed do eiusmod tempor</div>
+          </div>
+          <div class="icons__item ico">
+            <div class="ico__img"><img src="./sources/images/mailIco.png" alt="ico e-mail" /></div>
+            <div class="ico__detail">Esse cillum dolore eu fugiat</div>
+          </div>
+          <div class="icons__item ico">
+            <div class="ico__img"><img src="./sources/images/cashIco.png" alt="ico payment" /></div>
+            <div class="ico__detail">Excepteur sint occaecat cupidatat non proident</div>
+          </div>
+        </div>
+        <form class="order__form form">
+          <div class="form__select">
+            <select name="system types" id="systemSelect">
+              <option value="0">Выберите тип системы:</option>
+              <option value="1" class="text_emphasized">Sed ut perspiciatis</option>
+              <option value="2">Nemo enim ipsam</option>
+              <option value="3">Et harum quidem</option>
+              <option value="4">Temporibus autem</option>
+              <option value="5">Itaque earum rerum</option>
+              <option value="6">Lorem ipsum</option>
+              <option value="7">Consequatur dolor optio</option>
+            </select>
+          </div>
+          <div class="form__mail"><input name="email" type="email" placeholder="Ваш e-mail" /></div>
+          <div class="form__name"><input type="name" name="name" placeholder="Ваше имя" /></div>
+          <div class="form__range">
+            <input type="range" min="1" max="100" value="75" name="percent" class="slider" id="customRange" />
+          </div>
+          <div class="form__data">
+            <label for="file">Sed ut perspiciatis, unde omnis iste natus</label
+            ><input type="file" id="file" name="files" multiple />
+          </div>
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__logo"><span>&copy; 2018</span>&laquo;LoremIpsum.net&raquo; Все права защищены.</div>
+        <div class="footer__pay payment">
+          <div class="payment__item">
+            <img class="payment__item_img" src="./sources/images/QuiwiIco.png" alt="qiwi money" />
+            <div class="payment__item_name">QIWI wallet</div>
+          </div>
+          <div class="payment__item">
+            <img class="payment__item_img" src="./sources/images/YandexMoneyIco.png" alt="yandex money" />
+            <div class="payment__item_name">Yandex Money</div>
+          </div>
+          <div class="payment__item">
+            <img class="payment__item_img" src="./sources/images/WebMoneyIco.png" alt="web money" />
+            <div class="payment__item_name">Web Money</div>
+          </div>
+        </div>
+        <div class="footer__social">
+          <div class="social__item">
+            <a href="#" class="social__item_link"
+              ><img class="social__item_img" src="./sources/images/mailIcoFooter.png" alt="our e-mail" />
+              <span class="social__item_name">info@ipsum228.com</span></a
+            >
+          </div>
+          <div class="social__item">
+            <a href="#" class="social__item_link"
+              ><img class="social__item_img" src="./sources/images/VKIco.png" alt="our VK link" />
+              <span class="social__item_name">Мы вконтакте</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
