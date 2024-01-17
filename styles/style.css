@@ -1,2 +1,7 @@
 @import './base/_variables.css';
 @import './base/_fonts.css';
+
+@import './layout/base-styles.css';
+
+@import './components/wrapper.css';
+@import './layout/header.css';

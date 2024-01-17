@@ -1,0 +1,11 @@
+body {
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+  color: var(--text-main);
+  background-color: var(--main-bg-color);
+}
+
+.text_emphasized {
+  color: var(--text-colored);
+}
