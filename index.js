@@ -31,7 +31,15 @@ function mainFunction() {
       }
     });
   });
+
+  // range onchange
+  const rangeInput = document.querySelector('.range_slider');
+  const rangeValueOutput = document.querySelector('.form__range_percentage');
+  rangeInput.addEventListener('change', (event) => {
+    rangeValueOutput.innerText = `${event.target.value} %`;
+  });
 }
+
 //sticky header
 window.addEventListener('scroll', getStickyStyles);
 
