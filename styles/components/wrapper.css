@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  max-width: calc(1920px - 2 * 375px);
+  margin: auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .wrapper {
+    max-width: calc(1920px - 2 * 280px);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    max-width: calc(1300px - 2 * 100px);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .wrapper {
+    max-width: 94%;
+  }
+}

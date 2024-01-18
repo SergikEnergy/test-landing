@@ -1,0 +1,43 @@
+/* lato-300 - latin_latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../sources/fonts/lato-v24-latin_latin-ext-300.woff2') format('woff2');
+}
+/* lato-regular - latin_latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../sources/fonts/lato-v24-latin_latin-ext-regular.woff2') format('woff2');
+}
+/* lato-700 - latin_latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../sources/fonts/lato-v24-latin_latin-ext-700.woff2') format('woff2');
+}
+/* lato-900 - latin_latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../sources/fonts/lato-v24-latin_latin-ext-900.woff2') format('woff2');
+}
+
+/* raleway-regular - latin_latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../sources/fonts/raleway-v29-latin_latin-ext-regular.woff2') format('woff2');
+}
+/* raleway-800 - latin_latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../../sources/fonts/raleway-v29-latin_latin-ext-800.woff2') format('woff2');
+}

@@ -1,0 +1,158 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.ico:nth-child(2n + 2) {
+  position: relative;
+}
+
+.ico:nth-child(2n + 2):after,
+.ico:nth-child(2n + 2):before {
+  position: absolute;
+  content: '';
+  width: 11rem;
+  height: 8px;
+  top: 60px;
+  transform: translateY(-50%);
+  background: url('../../sources/images/dotBGRepeated.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.ico:nth-child(2n + 2):before {
+  left: -55%;
+}
+.ico:nth-child(2n + 2):after {
+  left: 100%;
+}
+
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ico__img {
+  width: 100px;
+  height: 100px;
+  background-color: var(--bg-buttons);
+  border-radius: 50%;
+  border: 5px solid #286690;
+}
+.ico {
+  margin-right: 14rem;
+  position: relative;
+}
+
+.ico_last {
+  margin-right: 0;
+  margin-top: 1%;
+}
+
+.ico__img {
+  margin-bottom: 2rem;
+}
+
+.ico__img img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -37px 0 0 -18px;
+}
+.ico__detail {
+  font-family: Lato, Verdana, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  width: 20rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .ico {
+    margin-right: 10rem;
+  }
+  .ico_last {
+    margin-right: 0;
+    margin-top: 1%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .ico {
+    margin-right: 6rem;
+  }
+  .ico_last {
+    margin-right: 0;
+    margin-top: 1%;
+  }
+  .ico:nth-child(2n + 2):after,
+  .ico:nth-child(2n + 2):before {
+    width: 8rem;
+  }
+
+  .ico:nth-child(2n + 2):after {
+    left: 95%;
+  }
+  .ico:nth-child(2n + 2):before {
+    left: -35%;
+  }
+  .icons {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .ico {
+    margin-right: 4rem;
+  }
+  .ico_last {
+    margin-right: 0;
+  }
+  .ico:nth-child(2n + 2):after,
+  .ico:nth-child(2n + 2):before {
+    width: 6rem;
+  }
+
+  .ico:nth-child(2n + 2):after {
+    left: 95%;
+  }
+  .ico:nth-child(2n + 2):before {
+    left: -25%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .ico {
+    margin-right: 2rem;
+  }
+  .ico_last {
+    margin-right: 0;
+  }
+  .ico:nth-child(2n + 2):after,
+  .ico:nth-child(2n + 2):before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .icons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 678px) {
+  .ico__detail {
+    margin-bottom: 2rem;
+  }
+  .ico__img img {
+    margin: -40px 0 0 -15px;
+  }
+  .ico {
+    margin-right: 2rem;
+  }
+}
