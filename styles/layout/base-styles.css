@@ -9,3 +9,14 @@ body {
 .text_emphasized {
   color: var(--text-colored);
 }
+
+@media screen and (max-width: 1450px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 7px;
+  }
+}

@@ -94,9 +94,14 @@
 .select-box label:target,
 .select-box label:focus {
   background: rgba(61, 64, 80, 0.85);
-  width: 100%;
 }
 
 .select-box .option .radio {
   display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .select-box {
+    width: 92%;
+  }
 }

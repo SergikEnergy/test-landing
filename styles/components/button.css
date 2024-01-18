@@ -34,3 +34,9 @@
   background-color: gray;
   color: #def4fd;
 }
+
+@media screen and (max-width: 400px) {
+  .button {
+    width: 130px;
+  }
+}

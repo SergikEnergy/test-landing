@@ -12,16 +12,29 @@
   justify-content: space-between;
 }
 
-.footer__pay {
+.footer__pay,
+.footer__social {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 6rem;
 }
 
-.footer__social {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 6rem;
+@media screen and (max-width: 1100px) {
+  .footer__pay {
+    gap: 4rem;
+  }
+  .footer__social {
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__pay,
+  .footer__social {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

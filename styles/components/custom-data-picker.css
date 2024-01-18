@@ -58,3 +58,9 @@
   transform: translateY(-50%);
   pointer-events: none;
 }
+
+@media screen and (max-width: 1050px) {
+  .data__content {
+    width: 90%;
+  }
+}

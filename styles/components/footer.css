@@ -83,3 +83,45 @@
   color: rgb(184, 247, 126);
   cursor: pointer;
 }
+
+@media screen and (max-width: 1600px) {
+  .payment:before,
+  .footer__social:before {
+    left: -12rem;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .payment:before,
+  .footer__social:before {
+    left: -7rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .payment:before,
+  .footer__social:before {
+    left: -6.5rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .payment:before,
+  .footer__social:before {
+    display: none;
+  }
+  .footer__logo {
+    text-wrap: wrap;
+    width: calc(30% - 15px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payment__item_img {
+    left: -4rem;
+  }
+
+  .social__item_img {
+    left: -3.8rem;
+  }
+}

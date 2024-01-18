@@ -49,3 +49,26 @@
   cursor: pointer;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 1100px) {
+  .range_slider {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .range_container label {
+    font-size: 1.6rem;
+    width: 60%;
+    line-height: 2rem;
+  }
+  .form__range_percentage {
+    text-wrap: nowrap;
+  }
+  .range_slider {
+    width: 94%;
+  }
+  .form__range_header {
+    width: 95%;
+  }
+}

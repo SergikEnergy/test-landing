@@ -10,7 +10,7 @@
   line-height: 5.8rem;
   text-transform: uppercase;
   color: var(--text-content);
-  width: 780px;
+  width: 55%;
 }
 
 .page__title span {
@@ -42,4 +42,54 @@
 .page__buttons {
   margin-top: 8rem;
   margin-bottom: 20rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .page__buttons {
+    margin-bottom: 12rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .page__buttons {
+    margin-bottom: 9rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .page__title {
+    margin-top: 15rem;
+    margin-bottom: 0.1em;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .content__header {
+    margin-top: 6rem;
+  }
+  .page__buttons {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__title {
+    margin-top: 18rem;
+    margin-bottom: 0.1em;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+}
+
+.page__title {
+  margin-top: 15rem;
+  margin-bottom: 0.1em;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+@media screen and (max-width: 430px) {
+  .page__title {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
 }
